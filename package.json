@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "node scripts/deploy.js",
+    "dev": "node scripts/watch.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/travisfrazier/shopify-test-theme/issues"
   },
-  "homepage": "https://github.com/travisfrazier/shopify-test-theme#readme"
+  "homepage": "https://github.com/travisfrazier/shopify-test-theme#readme",
+  "dependencies": {
+    "@shopify/themekit": "^1.1.6"
+  }
 }
